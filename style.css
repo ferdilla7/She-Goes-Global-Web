@@ -9,19 +9,30 @@
     left: 0;
     right: 0;
     z-index: 9999;
+    background-color: #4fd1c5;
 }
 
 .container {
-    width: 800px;
-    margin:auto;
-
+    display: flex;
+    justify-content: space-between
+    align-item: center;
+    padding: 10px;
 }
 
-.header {
-    padding: 10px;
+.header ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px
 }
 
 .header ul li {
     display: inline-block;
-    margin-top: 50px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: white;
+    fort-weight: bold;
 }
